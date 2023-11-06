@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+    overflow-x: hidden;
+    height: 100%;
+    background: #f7f7f7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.fixed-text {
+  color: #edeef0;
+  font-size: 170px;
+  font-weight: 900;
+  rotate: -90deg;
+  position: absolute;
+  left: 92px;
+  top: 440%;
+  width: 0px;
+  z-index: 0;
+}
+.perks {
+  color: #edeef0;
+  font-size: 170px;
+  font-weight: 900;
+  rotate: -90deg;
+  position: absolute;
+  left: auto;
+  top: 96%;
+  width: 0px;
+  z-index: 0;
+  right: 0px;
+  bottom: 0;
+}
+.perks.services {
+  left: -16%;
+  right: auto;
+  top: 85%;
+}
+.perks.awards {
+  top: 89%;
+  left: -19%;
+}
+.fixed-text.fixed-text2 {
+  right: 89px;
+  left: auto;
+  top: 285%;
+}
+.fixed-text.fixed-text3 {
+  top: 87%;
+  left: 49%;
+}
+.dice {
+  border-right: 5px solid #f8f8f8;
+}
+.fixed-text.fixed-text4 {
+  rotate: 0deg;
+  top: 40%;
+  white-space: nowrap;
+  left: -84px;
+}
+.fixed-text.fixed-text5 {
+  left: 92px;
+  right: auto;
+  top: 881%;
+}
+.contact .bg-div{
+  content: '';
+  background-image: url(.././src/images/grid-pattern-small.png);
+  height: 500px;
+  width: 100%;
+  opacity: .5;
+}
